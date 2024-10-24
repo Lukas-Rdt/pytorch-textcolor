@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import ColorPalette from "./ColorPalette";
 
 interface ColorResponse {
   prediction: number;
@@ -178,6 +179,7 @@ function App() {
       {isFeedbackLoading && (
         <p className="text-sm text-gray-600">Feedback wird verarbeitet...</p>
       )}
+      <ColorPalette />
     </div>
   );
 }

@@ -7,6 +7,8 @@ myenv/
 *.py[cod]
 __pycache__/
 
+*.pth
+
 *.log
 
 *.env
