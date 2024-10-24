@@ -1,0 +1,26 @@
+venv/
+env/
+
+#custom named venv environment
+myenv/
+
+*.py[cod]
+__pycache__/
+
+*.log
+
+*.env
+*.ini
+*.cfg
+
+.ipynb_checkpoints/
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
